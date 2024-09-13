@@ -1,0 +1,42 @@
+{
+  "name": "diviocom-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/email": "^0.0.0",
+    "@strapi/plugin-users-permissions": "5.0.0-rc.22",
+    "@strapi/provider-upload-aws-s3": "^4.25.10",
+    "@strapi/strapi": "5.0.0-rc.22",
+    "pg": "^8.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "slugify": "^1.6.6",
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "fedf731e-b481-417d-b8f1-8442272082c7",
+    "telemetryDisabled": true
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-arm64-musl": "^4.21.2",
+    "@rollup/rollup-linux-x64-musl": "^4.21.2",
+    "@swc/core-linux-arm64-musl": "^1.7.24"
+  }
+}

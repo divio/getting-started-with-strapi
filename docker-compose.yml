@@ -1,0 +1,27 @@
+services:
+  web:
+    build: .
+    ports:
+      - '8000:80'
+    volumes:
+      - '.:/app:rw'
+      - './data:/data:rw'
+      - 'node_modules:/app/node_modules'
+    env_file: '.env'
+    links:
+      - 'database_default'
+    command: 'npm run develop'
+
+  database_default:
+    image: postgres:15.7-alpine
+    environment:
+      POSTGRES_DB: 'db'
+      POSTGRES_HOST_AUTH_METHOD: 'trust'
+      SERVICE_MANAGER: 'fsm-postgres'
+    volumes:
+      - '.:/app:rw'
+      - 'database-default:/var/lib/postgresql/data/'
+
+volumes:
+  node_modules:
+  database-default:
