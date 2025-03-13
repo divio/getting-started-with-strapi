@@ -9,11 +9,11 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/email": "^5.9.0",
-    "@strapi/plugin-users-permissions": "^5.9.0",
-    "@strapi/provider-upload-aws-s3": "^5.9.0",
-    "@strapi/strapi": "^5.9.0",
-    "pg": "^8.13.2",
+    "@strapi/email": "^5.11.1",
+    "@strapi/plugin-users-permissions": "^5.11.1",
+    "@strapi/provider-upload-aws-s3": "^5.11.1",
+    "@strapi/strapi": "^5.11.1",
+    "pg": "^8.14.0",
     "react": "^18",
     "react-dom": "^18",
     "react-router-dom": "^6",
@@ -35,8 +35,8 @@
     "telemetryDisabled": true
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-arm64-musl": "^4.34.6",
-    "@rollup/rollup-linux-x64-musl": "^4.34.6",
-    "@swc/core-linux-arm64-musl": "^1.10.15"
+    "@rollup/rollup-linux-arm64-musl": "^4.35.0",
+    "@rollup/rollup-linux-x64-musl": "^4.35.0",
+    "@swc/core-linux-arm64-musl": "^1.11.9"
   }
 }
