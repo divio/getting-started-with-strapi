@@ -9,16 +9,16 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/email": "^5.11.1",
-    "@strapi/plugin-users-permissions": "^5.11.1",
-    "@strapi/provider-upload-aws-s3": "^5.11.1",
-    "@strapi/strapi": "^5.11.1",
-    "pg": "^8.14.0",
+    "@strapi/email": "^5.14.0",
+    "@strapi/plugin-users-permissions": "^5.14.0",
+    "@strapi/provider-upload-aws-s3": "^5.14.0",
+    "@strapi/strapi": "^5.14.0",
+    "pg": "^8.16.0",
     "react": "^18",
     "react-dom": "^18",
     "react-router-dom": "^6",
     "slugify": "^1.6.6",
-    "styled-components": "^6.1.15"
+    "styled-components": "^6.1.18"
   },
   "devDependencies": {
     "@types/node": "^22",
@@ -35,8 +35,8 @@
     "telemetryDisabled": true
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-arm64-musl": "^4.35.0",
-    "@rollup/rollup-linux-x64-musl": "^4.35.0",
-    "@swc/core-linux-arm64-musl": "^1.11.9"
+    "@rollup/rollup-linux-arm64-musl": "^4.41.1",
+    "@rollup/rollup-linux-x64-musl": "^4.41.1",
+    "@swc/core-linux-arm64-musl": "^1.11.29"
   }
 }
